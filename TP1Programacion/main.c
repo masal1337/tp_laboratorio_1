@@ -29,26 +29,28 @@ int main()
     printf("*    4. Informar resultados                *\n");
     printf("*    5. Salir                              *\n\n");
     printf("#    6. Elija una opcion: ");
+
     do
 
     {
 
-   /** Cuando se ingresen los numeros AyB, se reemplazan en el menu. */
+        /** Cuando se ingresen los numeros AyB, se reemplazan en el menu. */
 
-    if (flag==1) {
+        if (flag==1)
+        {
 
-    printf(" #*********CALCULADORA EN C*********# \n\n");
+            printf(" #*********CALCULADORA EN C*********# \n\n");
 
-    printf("*    1. Ingresar 1er operando (A=%.3f)     *\n", numeroA);
-    printf("*    2. Ingresar 2do operando (B=%.3f)     *\n", numeroB);
-    printf("*    3. Calcular todas las operaciones      *\n");
-    printf("*    4. Informar resultados                 *\n");
-    printf("*    5. Salir                               *\n\n");
-    printf("#    6. Elija una opcion: ");
+            printf("*    1. Ingresar 1er operando (A=%.3f)     *\n", numeroA);
+            printf("*    2. Ingresar 2do operando (B=%.3f)     *\n", numeroB);
+            printf("*    3. Calcular todas las operaciones      *\n");
+            printf("*    4. Informar resultados                 *\n");
+            printf("*    5. Salir                               *\n\n");
+            printf("#    6. Elija una opcion: ");
 
-    }
-    flag= 1;
-    scanf("%d",&opcion);
+        }
+        flag= 1;
+        scanf("%d",&opcion);
 
 
         switch(opcion)
@@ -97,7 +99,7 @@ int main()
             numeroFactorialB = hacerFactorial (numeroB);
 
 
-            printf ("-- Las cuentas ya se calcularon!  :) --\n ");
+            printf ("\n-- Las cuentas ya se calcularon!  :) --\n ");
 
             /** Se realizan las cuentas sin mostrarlas al usuario */
 
@@ -107,9 +109,9 @@ int main()
 
             /** Se muestran los resultados al usuario */
 
-            printf ("- a) El resultado de %.1f + %.1f es: %.2f \n", numeroA, numeroB, numeroSuma);
-            printf ("- a) El resultado de %.1f - %.1f es: %.2f \n", numeroA, numeroB, numeroResta);
-            printf ("- a) El resultado de %.1f * %.1f es: %.2f \n", numeroA, numeroB, numeroMulti);
+            printf ("\n- a) El resultado de %.1f + %.1f es: %.2f \n", numeroA, numeroB, numeroSuma);
+            printf ("- b) El resultado de %.1f - %.1f es: %.2f \n", numeroA, numeroB, numeroResta);
+            printf ("- c) El resultado de %.1f * %.1f es: %.2f \n", numeroA, numeroB, numeroMulti);
 
             /** Division si el operandoB es 0 */
 
@@ -119,11 +121,11 @@ int main()
             }
             else
             {
-                printf ("- a) El resultado de %.1f / %.1f es: %.2f \n", numeroA, numeroB, numeroDivision);
+                printf ("- e) El resultado de %.1f / %.1f es: %.2f \n", numeroA, numeroB, numeroDivision);
 
             }
 
-                printf("- e) El factorial de A es: %.1d y el factorial de B es: %.1d \n", numeroFactorialA, numeroFactorialB);
+            printf("- e) El factorial de A es: %.1d y el factorial de B es: %.1d \n", numeroFactorialA, numeroFactorialB);
 
             break;
 
@@ -146,7 +148,7 @@ int main()
         system("pause");
         system ("cls");
 
-        }
+    }
 
     while(seguir == 's');
 
