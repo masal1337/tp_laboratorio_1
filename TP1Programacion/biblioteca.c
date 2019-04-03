@@ -3,84 +3,72 @@
 #include "biblioteca.h"
 
 
-int pedirOpcionMenu(char texto[])
-
-        {
-
-        int opcion;
-
-        printf("%s", texto);
-        scanf("%d", &opcion);
-
-        return opcion;
-
-        }
 
 
 float hacerSuma (float numeroA, float numeroB)
 
-        {
+{
 
-        float resultado;
+    float resultado;
 
-        resultado = numeroA + numeroB;
+    resultado = numeroA + numeroB;
 
-        return resultado;
+    return resultado;
 
-        }
+}
 
 float hacerResta (float numeroA, float numeroB)
 
-        {
+{
 
-        float resultado;
+    float resultado;
 
-        resultado = numeroA - numeroB;
+    resultado = numeroA - numeroB;
 
-        return resultado;
+    return resultado;
 
-        }
+}
 
 float hacerMultiplicacion (float numeroA, float numeroB)
 
-       {
+{
 
-        float resultado;
+    float resultado;
 
-        resultado = numeroA * numeroB;
+    resultado = numeroA * numeroB;
 
-        return resultado;
+    return resultado;
 }
 
 float hacerDivision(float numeroA, float numeroB)
-        {
+{
 
-        float resultado;
+    float resultado;
 
-        resultado = numeroA/numeroB;
+    resultado = numeroA/numeroB;
 
-        return resultado;
+    return resultado;
 
-        }
+}
 
 
 
 int hacerFactorial (int numero)
 
-        {
+{
 
-        float acumulador = 1;
-        float i;
+    float acumulador = 1;
+    float i;
 
-        for (i=numero; i>0; i--)
+    for (i=numero; i>0; i--)
 
-        {
+    {
 
         acumulador= acumulador*i;
 
-        }
+    }
 
-        return acumulador;
+    return acumulador;
 
 }
 

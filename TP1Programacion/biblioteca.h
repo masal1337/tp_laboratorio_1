@@ -1,13 +1,6 @@
 #ifndef BIBLIOTECA_H_INCLUDED
 #define BIBLIOTECA_H_INCLUDED
 
-/** \brief Diseña el menu y se acopla a cada opcion que elija el usuario.
- *
- * \param char[] Valor del menu que elija el usuario en cadena.
- * \return int Un menu para su programa.
- *
- */
-int pedirOpcionMenu(char[]);
 
 
 /** \brief Realiza una suma entre dos numeros.
