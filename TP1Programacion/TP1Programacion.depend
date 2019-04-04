@@ -35,14 +35,14 @@
 	<stdlib.h>
 	"biblioteca.h"
 
-1554315634 source:c:\users\matias sandoval\desktop\juegos\tp1programacion\biblioteca.c
+1554315634 source:c:\users\nahuel\desktop\tp_laboratorio_1-master\tp1programacion\biblioteca.c
 	<stdio.h>
 	<stdlib.h>
 	"biblioteca.h"
 
-1554315634 c:\users\matias sandoval\desktop\juegos\tp1programacion\biblioteca.h
+1554315634 c:\users\nahuel\desktop\tp_laboratorio_1-master\tp1programacion\biblioteca.h
 
-1554316064 source:c:\users\matias sandoval\desktop\juegos\tp1programacion\main.c
+1554315634 source:c:\users\nahuel\desktop\tp_laboratorio_1-master\tp1programacion\main.c
 	<stdio.h>
 	<stdlib.h>
 	"biblioteca.h"
